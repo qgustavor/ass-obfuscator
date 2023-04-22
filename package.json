@@ -1,0 +1,26 @@
+{
+  "name": "@qgustavor/ass-obfuscator",
+  "version": "1.0.0",
+  "description": "Cursed font subsetting for .ass subtitles",
+  "main": "index.js",
+  "bin": "cli.js",
+  "type": "module",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "qgustavor",
+  "license": "WTFPL",
+  "dependencies": {
+    "@qgustavor/ass-parser": "^0.5.0",
+    "@qgustavor/ass-stringify": "^0.3.1",
+    "fonteditor-core": "^2.1.11",
+    "fontkit": "^1.7.7",
+    "fontkit-lite": "^1.8.1",
+    "get-stream": "^4.0.0",
+    "libjass": "^0.11.0",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
